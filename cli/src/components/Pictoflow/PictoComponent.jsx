@@ -93,7 +93,7 @@ const PictoComponent = () => {
       const response = await fetch("http://localhost:5000/api/quiz/pictoflow", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ topic }),
+        body: JSON.stringify({ topic  }),
       });
       const data = await response.json();
       if (data.success) {

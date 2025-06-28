@@ -43,6 +43,8 @@ const Settings = () => {
               <User size={22} className="me-2 text-info" />
               Profile Settings
             </h5>
+           <p className="text-muted">Update your profile information and avatar.</p>
+<a href="/profile" className="btn btn-info">Edit Profile</a>
             <p className="text-muted">Update your profile information and avatar.</p>
             <Button variant="info">Edit Profile</Button>
           </Card.Body>
@@ -55,6 +57,8 @@ const Settings = () => {
               <Sliders size={22} className="me-2 text-success" />
               Preferences
             </h5>
+            <p className="text-muted">Customize your app Schedule and plan your day.</p>
+            <a href="/calendar" className="btn btn-success">Edit Schedule</a>
             <p className="text-muted">Customize your app experience and theme.</p>
             <Button variant="success">Edit Preferences</Button>
           </Card.Body>
